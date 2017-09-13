@@ -388,7 +388,100 @@ input#subscribe {
 }
 
 #routes{
-    padding: 10px;
+    padding: 10px 0px;
     background: red;
 }
+
+.route-item.route-img {
+    background-image: url(../img/homedestaque1.jpg);
+    background-repeat: no-repeat;
+    width: 76%;
+    background-size: cover;
+}
+
+.route-item.route-img img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.route-item.route-img img:hover {
+    opacity: 1;
+}
+
+.route-item.route-txt {
+    background-color: #F4F4F4;
+}
+
+.route-container {
+    display: flex;
+    height: 546px;
+}
+
+.route-content {
+    background: antiquewhite;
+    width: 28%;
+    margin: 234px auto;
+   
+}
+.route-content>h1 {
+    color: #282525;
+}
+
+.route-content > p {
+    color: rgba(40, 37, 37, 0.44);
+    line-height: 22px;
+}
+
+.route-content > p::first-line {
+    color: #282525;
+}
+
+.italy-item.italy-img{
+     background-image: url(../img/homedestaque2.jpg);
+    background-repeat: no-repeat;
+    width: 76%;
+    background-size: cover;
+}
+
+.italy-container {
+    display: flex;
+    height: 598px;
+}
+
+.italy-item.italy-txt {
+    width: 56%;
+    background-color: #F4F4F4;
+}
+
+.italy-item.italy-img img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.italy-item.italy-img a img:hover {
+    opacity: 1;
+}
+
+.italy-content {
+    width: 360px;
+}
+
+span.regular-black {
+    color: #282525;
+}
+.italy-content > p {
+    color: rgba(40, 37, 37, 0.4);
+    line-height: 23px;
+}
+
     color: rgb(255,111,72);
