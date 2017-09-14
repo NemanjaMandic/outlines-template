@@ -524,4 +524,9 @@ span.regular-black {
     width: 360px;
     margin: 172px auto;
 }
+
+div#timeline ul {
+    display: none;
+}
+
     color: rgb(255,111,72);
