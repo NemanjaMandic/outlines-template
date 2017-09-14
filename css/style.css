@@ -313,7 +313,6 @@ input#subscribe {
 }
 
 #pack-and-go {
-    background: blue;
     padding: 30px;
 }
 
@@ -343,17 +342,17 @@ input#subscribe {
 }
 
 #map {
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
 }
 
 #timeline {
-    width: 70%;
-    border-bottom: 1px solid orange;
-    margin: 0 auto 100px;
+    width: 55%;
+    border-bottom: 1px solid rgb(255, 111, 72);;
+    margin: -5px auto 70px;
     display: inline-flex;
     position: relative;
-    left: 264px;
+    left: 450px;
 }
 
 #timeline>div {
@@ -382,6 +381,11 @@ input#subscribe {
     list-style: none;
 }
 
+#timeline ul li {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
 #timeline ul li a{
     text-decoration: none;
     color: rgba(255, 111, 72, 0.71);
@@ -402,6 +406,7 @@ input#subscribe {
 .route-item.route-img img {
     max-width: 100%;
     width: 100%;
+    max-height: 100%;
     height: auto;
     opacity: 0;
     transition: opacity .25s ease-in-out;
@@ -423,7 +428,7 @@ input#subscribe {
 }
 
 .route-content {
-    background: antiquewhite;
+    
     width: 28%;
     margin: 234px auto;
    
@@ -529,4 +534,13 @@ div#timeline ul {
     display: none;
 }
 
+#alaska, #usa, #kroacija,
+#gvatemala, #nikaragva,
+#kuba, #italija,
+#indija, #maroko,
+#portugalija, #Birmania,
+#vijetnam, #laos, #mongolija{
+	  		transition: all 0.3s ease;
+	  	}
+	  	
     color: rgb(255,111,72);
