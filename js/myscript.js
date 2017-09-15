@@ -1,3 +1,6 @@
+(function () {
+    
+
 	var alaska = document.getElementById("alaska")
 	  	var usa = document.getElementById("usa");
 	  	var kroacija = document.getElementById("kroacija");
@@ -444,3 +447,5 @@
 	  
 	  			box12ul.style.display="none";
 	  	});
+	  	
+})();

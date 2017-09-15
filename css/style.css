@@ -389,6 +389,7 @@ input#subscribe {
 #timeline ul li a{
     text-decoration: none;
     color: rgba(255, 111, 72, 0.71);
+    transition: .2s ease;
 }
 
 #routes{
@@ -543,4 +544,70 @@ div#timeline ul {
 	  		transition: all 0.3s ease;
 	  	}
 	  	
+#timeline ul li a:hover {
     color: rgb(255,111,72);
+}
+
+/* ******************* ROUTES PAGE *********************** */
+
+.routes-header {
+    padding: 50px;
+    
+    width: 70%;
+    margin: 0 auto;
+    background: url(../img/rotas.jpg) no-repeat;
+    height: 566px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+   
+    background-size: cover;
+}
+
+.fascinated-title {
+    text-align: center;
+}
+
+.fascinated-title>p {
+    color: rgb(255,111,72);
+    font-size: 1.5em;
+}
+
+.fascinated-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.blogs-container {
+    background-color: #af1d1d;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-item {
+    background: aquamarine;
+    width: 66%;
+    height: 10%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.burma-img {
+    background: url(../img/thumb.jpg) no-repeat;
+    width: 302px;
+    height: 198px;
+}
+
+.burma-txt {
+    width: 56%;
+    box-sizing: border-box;
+    margin-left: 51px;
+    background: antiquewhite;
+}
+
+.burma-txt > h3 {
+    margin-top: 0px;
+}
