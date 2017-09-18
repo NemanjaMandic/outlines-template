@@ -566,6 +566,7 @@ div#timeline ul {
 
 .fascinated-title {
     text-align: center;
+    margin-top: 45px;
 }
 
 .fascinated-title>p {
@@ -579,13 +580,12 @@ div#timeline ul {
 }
 
 .blogs-container {
-    background-color: #af1d1d;
     display: flex;
     flex-direction: column;
+    margin-top: 45px;
 }
 
 .blog-item {
-    background: aquamarine;
     width: 66%;
     height: 10%;
     margin: auto;
@@ -605,7 +605,6 @@ div#timeline ul {
     width: 56%;
     box-sizing: border-box;
     margin-left: 51px;
-    background: antiquewhite;
 }
 
 .blog-txt > .blog-title {
@@ -632,7 +631,7 @@ h3.blog-title a:hover {
     color: #282525;
 }
 
-.blog-txt .lin:hover{
+.blog-txt .link:hover{
     color: rgba(255, 111, 72, 0.68);
 }
 .blog-txt .link::before {
@@ -650,4 +649,49 @@ h3.blog-title a:hover {
 
 span.orange-txt {
     color: rgb(255,111,72);
+}
+
+.cro-img{
+     background: url(../img/thumb1.jpg) no-repeat;
+    width: 302px;
+    height: 198px;
+}
+
+.cro-img>a>img {
+    opacity: 0;
+    transition: .4s ease;
+}
+
+.cro-img>a>img:hover{
+     opacity: 1;
+}
+
+.cuba-img{
+     background: url(../img/thumb2.jpg) no-repeat;
+    width: 302px;
+    height: 198px;
+}
+
+.cuba-img>a>img {
+    opacity: 0;
+    transition: .4s ease;
+}
+
+.cuba-img>a>img:hover{
+     opacity: 1;
+}
+
+.guatemala-img{
+     background: url(../img/thumb3.jpg) no-repeat;
+    width: 302px;
+    height: 198px;
+}
+
+.guatemala-img>a>img {
+    opacity: 0;
+    transition: .4s ease;
+}
+
+.guatemala-img>a>img:hover{
+     opacity: 1;
 }
