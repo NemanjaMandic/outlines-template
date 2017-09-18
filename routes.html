@@ -7,6 +7,11 @@
 <title>Routes.</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -47,19 +52,34 @@
 	              <img class="hoverthumb" src="img/thumbhover3.png">
 	            </a>
 	          </div>
-	          <div class="burma-txt">
-	          	<h3>Burma</h3>
-	          	<p>the secret Asia kept to itself
+	          
+	          <div class="blog-txt">
+	          	<h3 class="blog-title"><a href="#">Burma</a></h3>
+	          	<p><span class="orange-txt">the secret Asia kept to itself</span><br>
 					Imagine a land of pristine teak rainforests still dominated by indigenous tribes emulating the life, 
 					habits and traditions of their ancestors. 
 					A land where fisherman row their boats with gentle feet moves in a constant defy of gravity, 
 					women of shinny long necks gracefully plow the fields,
 					monkeys walk us up millenary temples and the trains dance their way through mountain tracks.</p>
-					<a href="#">Know more</a>
+					<a class="link" href="#">Know more</a>
 	          </div>
 	      </div>
 	      <div class="blog-item">
-	          HHHHHHHHHHHH
+	          <div class="burma-img">
+	          	<a href="#">
+	              <img class="hoverthumb" src="img/thumbhover3.png">
+	            </a>
+	          </div>
+	          
+	          <div class="blog-txt">
+	          	<h3 class="blog-title"><a href="#">Road Trip Croatia</a></h3>
+	          	<p><span class="orange-txt">a sea of a thousand coasts</span><br>
+					There’s a coast in Europe that reinvents the relationship between the land and the sea. 
+					A coast where the eternal clash between these two elements is settled by an almost perfect symbiosis, 
+					in which one fades in the other in a myriad of islands, peninsulas and crisscrossed lines. 
+					Where each keeps to itself the best view over the other and, at every sunset, a piano is played at the sound of their warm embrace.</p>
+					<a class="link" href="#">Know more</a>
+	          </div>
 	      </div>
 	      <div class="blog-item">
 	          KKKKKKKKKKKKKKK
@@ -131,6 +151,26 @@
 		<p>© 2017 Outlines - All rights reserved</p>
         <p>by 327 Creative Studio</p>
 	</div>
+	
+	<input type="radio" name="group1" checked value="slow">Slow
+	<input type="radio" name="group1" checked value="">Normal
+	<input type="radio" name="group1" checked value="fast">Fast
+	
+	<div id="fadingDiv" style="background-color: green; width: 400px; height: 200px;"></div>
 </footer>
+<script>
+	      
+	       jQuery( document ).ready(function($) {
+	          	  var fad = $("#fadingDiv");
+	          	  fad.on('click', function(){
+	          	  	$(this).fadeOut($("input:radio[name=group]:checked").val(), function(){
+	          	  		$(this).show();
+	          	  	});
+	          	  
+	          	  });
+	          	  
+	          });
+	          
+	          </script>
 </body>
 </html>

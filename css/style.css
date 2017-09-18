@@ -601,13 +601,53 @@ div#timeline ul {
     height: 198px;
 }
 
-.burma-txt {
+.blog-txt {
     width: 56%;
     box-sizing: border-box;
     margin-left: 51px;
     background: antiquewhite;
 }
 
-.burma-txt > h3 {
+.blog-txt > .blog-title {
     margin-top: 0px;
+    color: rgb(255,111,72);
+}
+h3.blog-title>a {
+    color: rgb(255,111,72);
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+h3.blog-title a:hover {
+    color: rgba(255, 111, 72, 0.64);
+}
+
+.blog-txt .link {
+    text-decoration: none;
+    color: rgb(255,111,72);
+    transition: 0.2s ease;
+}
+
+.blog-txt p {
+    color: #282525;
+}
+
+.blog-txt .lin:hover{
+    color: rgba(255, 111, 72, 0.68);
+}
+.blog-txt .link::before {
+    content: "> ";
+}
+
+.burma-img>a>img {
+    opacity: 0;
+    transition: .4s ease;
+}
+
+.burma-img>a>img:hover {
+    opacity: 1;
+}
+
+span.orange-txt {
+    color: rgb(255,111,72);
 }
